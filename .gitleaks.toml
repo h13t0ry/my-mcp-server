@@ -1,0 +1,55 @@
+[[rules]]
+description = "npm install command"
+regex = '''npm\s{1,20}install.{1,30}'''
+
+[[rules]]
+description = "AKLT key pattern"
+regex = '''AKLT\w{43,44}'''
+
+[[rules]]
+description = "AKAP key pattern"
+regex = '''AKAP\w{43,44}'''
+
+[[rules]]
+description = "Tokenizer/Transformer/Token ID patterns"
+regex = '''(tokenizer|transformer|token_id|tokenid|attention_head).{0,20}'''
+
+[[rules]]
+description = "AWS-style key pattern"
+regex = '''(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}'''
+
+[[rules]]
+description = "Alibaba LTAI key pattern"
+regex = '''(LTAI)[a-z0-9]{20}'''
+
+[[rules]]
+description = "AKTP key pattern"
+regex = '''AKTP\w{43,44}'''
+
+[[rules]]
+description = "App ID patterns"
+regex = '''([^*<\s|:>]{0,7})(app_id|appid)([^]()!<>;/@&,]{0,10}[(=:]\s{0,6}["']{0,1}[0-9]{6,32}["']{0,1})'''
+
+[[rules]]
+description = "byted.org domains"
+regex = '''.{0,15}\.?byted.org.{0,20}'''
+
+[[rules]]
+description = "bytedance.net domains"
+regex = '''.{0,15}\.?bytedance.net.{0,20}'''
+
+[[rules]]
+description = "bytedance.feishu.cn domains"
+regex = '''.{0,20}.bytedance\.feishu\.cn.{0,50}'''
+
+[[rules]]
+description = "bytedance.larkoffice.com domains"
+regex = '''.{0,20}.bytedance\.larkoffice\.com.{0,50}'''
+
+[[rules]]
+description = "Private IP address pattern (10.x.x.x)"
+regex = '''(10\.\d{1,3}\.\d{1,3}\.\d{1,3})'''
+
+[[rules]]
+description = "Generic secret keywords and value patterns"
+regex = '''([^*<\s|:>]{0,4})(testak|testsk|ak|sk|key|token|auth|pass|cookie|session|password|app_id|appid|secret_key|access_key|secretkey|accesskey|credential|secret|access)(\s{0,10}[(=:]\s{0,6}["']{0,1}(?=[a-zA-Z]*[0-9])(?=[0-9]*[a-zA-Z])[a-zA-Z0-9]{16,32}["']{0,1})'''
