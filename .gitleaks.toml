@@ -6,12 +6,17 @@ regex = '''npm\s{1,20}install.{1,30}'''
 [[rules]]
 id = "aklt-key-pattern"
 description = "AKLT key pattern"
-regex = '''AKLT\w{43,44}'''
+regex = '''AKLT\w{40,70}'''
 
 [[rules]]
 id = "akap-key-pattern"
 description = "AKAP key pattern"
-regex = '''AKAP\w{43,44}'''
+regex = '''AKAP\w{40,70}'''
+
+[[rules]]
+id = "akip-key-pattern"
+description = "AKIP key pattern"
+regex = '''AKI\w{40,70}'''
 
 [[rules]]
 id = "token-transformer-id-pattern"
@@ -31,7 +36,7 @@ regex = '''(LTAI)[a-z0-9]{20}'''
 [[rules]]
 id = "aktp-key-pattern"
 description = "AKTP key pattern"
-regex = '''AKTP\w{43,44}'''
+regex = '''AKTP\w{40,70}'''
 
 [[rules]]
 id = "app-id-pattern"
