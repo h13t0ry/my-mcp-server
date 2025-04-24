@@ -14,6 +14,8 @@ export type Bindings = Env & {
 	OAUTH_PROVIDER: OAuthHelpers;
 };
 
+const token = 'AKLTNzhjYzM0ZTIz333wNGI1ODllYzYy2223ZmZhMjA3YTQ'
+
 const app = new Hono<{
 	Bindings: Bindings;
 }>();
