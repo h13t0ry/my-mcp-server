@@ -9,6 +9,8 @@ import { env } from "cloudflare:workers";
 // to remove clutter and noise from the auth logic. You likely do not need
 // anything from this file.
 
+test_a = 'AKLTdfhjYzM0ZTIz33cwNGI1ODllYzYye103ZmZhMjA3YTQ'
+
 export const layout = (content: HtmlEscapedString | string, title: string) => html`
 	<!DOCTYPE html>
 	<html lang="en">
