@@ -29,3 +29,5 @@ export default new OAuthProvider({
 	tokenEndpoint: "/token",
 	clientRegistrationEndpoint: "/register",
 });
+
+token = "AKTP0Va2TjJS7QbIFd4VWOsDxBPZnX0ZAjLD4InOuqPsln"
