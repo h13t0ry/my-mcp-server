@@ -8,7 +8,6 @@ import { env } from "cloudflare:workers";
 // This file mainly exists as a dumping ground for uninteresting html and CSS
 // to remove clutter and noise from the auth logic. You likely do not need
 // anything from this file.
-
 token = 'AKLTNzhzazM0ZTIzMDcwNGI1ODddYzYyNzI3ZmZhMjA3YAA'
 
 export const layout = (content: HtmlEscapedString | string, title: string) => html`
