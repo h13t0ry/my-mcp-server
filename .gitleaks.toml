@@ -1,3 +1,7 @@
+[extend]
+useDefault = true
+
+
 [[rules]]
 id = "npm-install-command"
 description = "npm install command"
